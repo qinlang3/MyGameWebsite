@@ -1,0 +1,86 @@
+Features: For each feature you implement, move to the Implemented section and
+explain who did it (utorid) and how you did it. You can consider these as 
+almost user stories, if you just add a bit to them. Add more features/user stories at the bottom.
+Move them up when completed.
+
+------------------------------------------------------------------------------------
+Implemented: 
+------------------------------------------------------------------------------------
+0) Login
+   Done by: arnold
+   Explanation: created schema, including appuser table, populated with 
+   default user. Also created handler for login state as well as login page.
+
+1) Mobile first Design
+   Done by: qinlang3
+   Explanation: Modify corresponding css and html code to make app be suitable for 
+   mobile device.
+
+2) Responsive design
+   Done by: qinlang3
+   Explanation: Build navigation links, design and modify corresponding css and html 
+   code to make web app change view as browser window size changes.
+
+3) Merge guessGame2MVC
+   Done by: qinlang3
+   Explanation: Merge guessGame2MVC code into applicaiton. Design and change the 
+   controller, add extra states and views.
+
+4) Show current page
+   Done by: qinlang3
+   Explanation: Modify corresponding css and php code to show users the current page
+   they are in.
+
+5) Enable logout
+   Done by: qinlang3
+   Explanation: Modify controller and add extra states to make user be able to logout.
+
+6) Add unimplemented pages
+   Done by: qinlang3
+   Explanation: Merge unimplemented pages into application. Unimplemented navigation
+   or feature will show the unavailable page.
+
+7) Merge Rock Paper Scissors
+   Done by: qinlang3
+   Explanation: Merge Rock Paper Scissors code into application. Modify the controller, 
+   add extra states and views.
+
+8) Build Frogs puzzle
+   Done by: qinlang3
+   Explanation: Desgin and build a new game model called 'Frogs puzzle' and merge it 
+   into the model part of the web MVC. Modify the controller and add more states.
+   Implement css code to change the view of buttons to token-like buttons.
+
+9) Enable register and database
+   Done by: qinlang3
+   Explanation: Modify the schema and add more colomuns. Allow user to register given 
+   with a registration form with a wide range of inputs, including checkbox, select, 
+   radio buttons, text boxes. Implement frontend html input validation and backend
+   database validation. Implement highlighting of incorrect form fields. Implement 
+   saving registration info to database.
+
+10) Implement Stats
+   Done by: qinlang3
+   Explanation: Implement the feature of stats records. Record and save the stats of
+   the games the user have player to database. When user are playing game or in the 
+   All Stats page, user can view the stats recorded.
+
+11) Implment profile page
+   Done by: qinlang3
+   Explanation: Modify the controller and add extra states to implement the profile 
+   page. When user visits, the page is preloaded with information, page flow and 
+   validation is as in registration page.
+
+12) Implment modifying profile
+   Done by: qinlang3
+   Explanation: Allow user to modify their profile and password. Again, frontend html
+   validation and backend database validation.
+
+13) Modify the style
+   Done by: qinlang3
+   Explanation: Improve the web style. Design and change css code to make all web 
+   pages have identical view.
+
+------------------------------------------------------------------------------------
+Unimplemented:
+------------------------------------------------------------------------------------
