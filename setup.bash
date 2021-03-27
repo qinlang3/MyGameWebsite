@@ -11,6 +11,5 @@ find $1  -type d -exec chmod 750 {} \;
 find $1  -type f -exec chmod 640 {} \;
 chgrp -R www-data $1
 chmod g+w $1/sess
-chmod u=rwx,g=rx games09/dev/setup.sh
 chmod u=rwx,g=rx games/dev/setup.sh
 
