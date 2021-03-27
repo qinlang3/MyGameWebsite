@@ -3,7 +3,7 @@ if [ $# -ne 1 ]
 then
     echo "Usage: setup.bash DIR"
     echo "to set permissions and group for existing directory DIR"
-    echo "Example: ./setup.bash games01"
+    echo "Example: ./setup.bash games"
     exit 1;
 fi
 
